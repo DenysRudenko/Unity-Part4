@@ -349,6 +349,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 4410424957449793155, guid: 0cedb1bc80bde684fadfa02836756977, type: 3}
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 536014230}
 --- !u!4 &346424664
 Transform:
   m_ObjectHideFlags: 0
@@ -368,6 +371,11 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1742899641471652, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
   m_PrefabInstance: {fileID: 102484091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &536014230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2597626317183320921, guid: 977b0bdc8018a63439b8527170841ee2, type: 3}
+  m_PrefabInstance: {fileID: 186630196630331029}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1211016355
 GameObject:
